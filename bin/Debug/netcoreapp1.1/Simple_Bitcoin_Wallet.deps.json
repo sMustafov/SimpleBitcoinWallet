@@ -1,0 +1,138 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "9a9ab08768cfe837e9693611bfceea198fea43c4"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "simple_bitcoin_wallet/1.0.0": {
+        "dependencies": {
+          "HBitcoin": "0.1.8.2"
+        },
+        "runtime": {
+          "Simple_Bitcoin_Wallet.dll": {}
+        }
+      },
+      "concurrenthashset/1.0.1": {
+        "runtime": {
+          "lib/netstandard1.0/ConcurrentCollections.dll": {}
+        }
+      },
+      "dotnettor/2.2.0.2": {
+        "runtime": {
+          "lib/netstandard1.6/DotNetTor.dll": {}
+        }
+      },
+      "hbitcoin/0.1.8.2": {
+        "dependencies": {
+          "ConcurrentHashSet": "1.0.1",
+          "DotNetTor": "2.2.0.2",
+          "NBitcoin": "4.0.0.8",
+          "QBitNinja.Client": "1.0.3.39"
+        },
+        "runtime": {
+          "lib/netstandard1.6/HBitcoin.dll": {}
+        }
+      },
+      "nbitcoin/4.0.0.8": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "System.Collections.NonGeneric": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NBitcoin.dll": {}
+        }
+      },
+      "newtonsoft.json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "qbitninja.client/1.0.3.39": {
+        "dependencies": {
+          "NBitcoin": "4.0.0.8"
+        },
+        "runtime": {
+          "lib/netstandard1.1/QBitNinja.Client.dll": {}
+        }
+      },
+      "system.collections.nongeneric/4.0.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "system.runtime.serialization.primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "simple_bitcoin_wallet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "concurrenthashset/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0lgcb+0sUX56qC57cYoz0dHzM/UOB7CtmhWqw0rccScr4ieQL7rZ9GjsBPx8OT26pmeE/NS+j2/1Q0n0wg9cRg==",
+      "path": "concurrenthashset/1.0.1",
+      "hashPath": "concurrenthashset.1.0.1.nupkg.sha512"
+    },
+    "dotnettor/2.2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vi4JjAXfyQF7G5kxF/JYk2e1fI7SORwZ/3+MLwOO05TgDOC/usKNmNBt6qLHoa1J3QEAgz4eyT5NfeTZVia30w==",
+      "path": "dotnettor/2.2.0.2",
+      "hashPath": "dotnettor.2.2.0.2.nupkg.sha512"
+    },
+    "hbitcoin/0.1.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3cdhPEj1Z3n9wKLLHUCFCzhRfxLTSzdNXSSd/YfOmjLWswP0xjiyokbuCqZQzmVA+ndhzHhzWv7cjlJ4ZAkl2g==",
+      "path": "hbitcoin/0.1.8.2",
+      "hashPath": "hbitcoin.0.1.8.2.nupkg.sha512"
+    },
+    "nbitcoin/4.0.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VAOU8oLnKxjOUGCfEtikbs44T3W4Lt/CyJGBHojz6FbaQHHOMFMwo9mni91IWE/qft4B6+9N/MuRvTcv+/K0yA==",
+      "path": "nbitcoin/4.0.0.8",
+      "hashPath": "nbitcoin.4.0.0.8.nupkg.sha512"
+    },
+    "newtonsoft.json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "path": "newtonsoft.json/9.0.1",
+      "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "qbitninja.client/1.0.3.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B1XVtiXcMWCI7JI2fEd1xCR0mtbUGn2qx6iR3OKaZvEQpdnW1GcL/8pjjxUJHUcqNd/pVku7YycAYEWxaifoPw==",
+      "path": "qbitninja.client/1.0.3.39",
+      "hashPath": "qbitninja.client.1.0.3.39.nupkg.sha512"
+    },
+    "system.collections.nongeneric/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA==",
+      "path": "system.collections.nongeneric/4.0.1",
+      "hashPath": "system.collections.nongeneric.4.0.1.nupkg.sha512"
+    },
+    "system.runtime.serialization.primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
+      "path": "system.runtime.serialization.primitives/4.1.1",
+      "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
+    }
+  }
+}
